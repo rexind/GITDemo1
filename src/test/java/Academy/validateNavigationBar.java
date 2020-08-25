@@ -49,7 +49,7 @@ public void initialize() throws IOException
 		 System.out.println("Test completed12");
 		 System.out.println(p.equals("bet77"));
 	        System.out.println(p.equals("wet11"));
-	 //   Assert.assertFalse(false);
+	 Assert.assertFalse(false);
 		;
 	
 		
