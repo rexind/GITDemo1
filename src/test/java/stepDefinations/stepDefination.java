@@ -43,6 +43,8 @@ public class stepDefination extends base {
 	    // Write code here that turns the phrase above into concrete actions
 portalHomePage p=new portalHomePage(driver);
       Assert.assertTrue(p.getSearchBox().isDisplayed());
+      System.out.println(p.equals("wait"));
+      
 	}
 	 @When("^User enters (.+) and (.+) and logs in$")
 	    public void user_enters_and_and_logs_in(String username, String password) throws Throwable {
