@@ -44,6 +44,8 @@ public class stepDefination extends base {
 portalHomePage p=new portalHomePage(driver);
       Assert.assertTrue(p.getSearchBox().isDisplayed());
       System.out.println(p.equals("wait"));
+      System.out.println(p.equals("wait13"));
+      System.out.println(p.equals("wait131"));
       
 	}
 	 @When("^User enters (.+) and (.+) and logs in$")
@@ -52,7 +54,11 @@ portalHomePage p=new portalHomePage(driver);
 			lp.getEmail().sendKeys(username);
 			lp.getPassword().sendKeys(password);
 	        lp.getLogin().click();
+	        
+	        System.out.println(p.equals("bet77"));
+	        System.out.println(p.equals("wet11"));
 	    }
+	 
 	 @And("^close browsers$")
 	    public void close_browsers() throws Throwable {
 	        driver.quit();

@@ -73,7 +73,8 @@ public class HomePage extends base{
 		data[1][0]="restricteduser@qw.com";
 		data[1][1]="456788";
 		data[1][2]= "Non restricted user";
-		
+		System.out.println(p.equals("bet77"));
+        System.out.println(p.equals("wet11"));
 		return data;
 		
 		
