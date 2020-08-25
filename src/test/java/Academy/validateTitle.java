@@ -41,7 +41,9 @@ public class validateTitle extends base{
 		Assert.assertEquals(l.getTitle().getText(), "FEATURED COURSES");
 		 log.info("Successfully validated Text message");
 		 System.out.println("Test completed");
-		 
+		 System.out.println("Test completed1");
+		 System.out.println("Test completed2");
+		 System.out.println("Test completed3");
 		;
 	
 		
